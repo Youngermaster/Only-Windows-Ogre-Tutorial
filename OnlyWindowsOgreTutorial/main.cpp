@@ -15,7 +15,7 @@ public:
 };
 
 //! [constructor]
-MyTestApp::MyTestApp() : OgreBites::ApplicationContext("OgreTutorialApp")
+MyTestApp::MyTestApp() : OgreBites::ApplicationContext("Only Windows Ogre3D Tutorial")
 {
 }
 //! [constructor]
