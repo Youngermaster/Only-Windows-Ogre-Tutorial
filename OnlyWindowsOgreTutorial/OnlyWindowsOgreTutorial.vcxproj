@@ -130,20 +130,23 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\juanm\Documents\GitHub\AnotherOnes\ogre\OgreMain\include;C:\Users\juanm\Documents\GitHub\AnotherOnes\ogre\Components\RTShaderSystem\include;C:\Users\juanm\Documents\GitHub\AnotherOnes\ogre\Components\Bites\include;C:\Users\juanm\Documents\GitHub\AnotherOnes\ogre\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\juanm\Documents\GitHub\AnotherOnes\ogre\build\lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreBites.lib;OgreRTShaderSystem.lib;OgreMain.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="OgreImpl.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="OgreImpl.h" />
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

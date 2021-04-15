@@ -1,5 +1,6 @@
 #pragma once
-class OgreImpl
+#include <OgreBites.h>
+class OgreImpl : public OgreBites::ApplicationContext, public OgreBites::InputListener
 {
 };
 
