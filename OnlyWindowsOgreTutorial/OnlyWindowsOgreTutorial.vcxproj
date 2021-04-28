@@ -145,6 +145,7 @@
     <ClCompile Include="ExampleSelector.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="RenderAOgre.cpp" />
+    <ClCompile Include="RenderFourHeads.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
@@ -153,6 +154,7 @@
   <ItemGroup>
     <ClInclude Include="ExampleSelector.h" />
     <ClInclude Include="RenderAOgre.h" />
+    <ClInclude Include="RenderFourHeads.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

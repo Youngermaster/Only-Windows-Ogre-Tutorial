@@ -3,6 +3,6 @@
 //! [main]
 int main(int argc, char* argv[])
 {
-    ExampleSelector().selectExample(1);
+    ExampleSelector().selectExample(2);
     return 0;
 }

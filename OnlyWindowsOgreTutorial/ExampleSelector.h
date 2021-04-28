@@ -1,5 +1,6 @@
 #pragma once
 #include "RenderAOgre.h"
+#include "RenderFourHeads.h"
 
 class ExampleSelector
 {
@@ -8,5 +9,6 @@ public:
 	void selectExample(int index);
 private:
 	void renderAOgre();
+	bool renderFourHeads();
 };
 
