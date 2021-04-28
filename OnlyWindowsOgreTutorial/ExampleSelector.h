@@ -1,6 +1,7 @@
 #pragma once
 #include "RenderAOgre.h"
 #include "RenderFourHeads.h"
+#include "RenderANinja.h"
 
 class ExampleSelector
 {
@@ -10,5 +11,6 @@ public:
 private:
 	void renderAOgre();
 	bool renderFourHeads();
+	bool renderANinja();
 };
 

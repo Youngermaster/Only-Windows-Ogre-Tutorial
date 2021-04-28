@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClCompile Include="ExampleSelector.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RenderANinja.cpp" />
     <ClCompile Include="RenderAOgre.cpp" />
     <ClCompile Include="RenderFourHeads.cpp" />
   </ItemGroup>
@@ -153,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ExampleSelector.h" />
+    <ClInclude Include="RenderANinja.h" />
     <ClInclude Include="RenderAOgre.h" />
     <ClInclude Include="RenderFourHeads.h" />
   </ItemGroup>
